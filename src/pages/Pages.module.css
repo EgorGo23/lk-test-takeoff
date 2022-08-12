@@ -1,0 +1,6 @@
+.login_page {
+	width: 300px;
+	padding: 20px;
+	display: flex;
+	flex-flow: column;
+}

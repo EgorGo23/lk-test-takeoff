@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "noImplicitAny": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "jsx": "react",
+    "paths": {
+      "@pages": ["src/pages"],
+      "@layouts": ["src/layouts"],
+      "@styles/*": ["styles/*"],
+      "@features/*": ["src/features/*"],
+      "@store": ["src/store"],
+      "@processes/*": ["src/processes/*"]
+    }
+  },
+  "include": ["src", "index.d.ts"],
+  "exclude": ["node_modules", "dist"]
+}
